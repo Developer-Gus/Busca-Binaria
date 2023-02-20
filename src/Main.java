@@ -32,7 +32,7 @@ public class Main {
                 end = mid - 1;
             }
         }
-        //It'll be true if our searching value was founded, if not, the looping will check all
+        //It'll be true if our searching value was founded, if not, the looping will check it all
         if (founded == true) {
             System.out.println("Existing value!");
         } else {
