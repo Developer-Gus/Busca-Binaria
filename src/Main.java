@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         int [] vector = new int [10000 ];
 
-        //It's a ordered vector
+        //It's an ordered vector
         for (int cont = 0; cont < vector.length; cont++) {
             vector[cont] = cont * 2;
         }
@@ -36,7 +36,7 @@ public class Main {
         if (founded == true) {
             System.out.println("Existing value!");
         } else {
-            System.out.println("That value don't exist.");
+            System.out.println("This value doesn't exists.");
         }
         System.out.println("We did " + cont + " tests.");
     }
